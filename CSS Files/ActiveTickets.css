@@ -1,0 +1,94 @@
+
+.box-type{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid black;
+	margin-top:5px;
+	margin-left: 1px;
+  }
+
+.box-img{
+	/* padding-left: 7px; */
+	padding-top: 7px;
+	border-radius: 50%;
+}
+.box-status{
+    margin-top: -0.5px;
+	font-size:7px;
+	text-align: left;
+}
+.box-title, .box-ticket {
+	margin-top: -0.5px;
+	font-size:12px;
+	text-align: left;
+}
+.box-msg{
+	margin-top: -0.5px;
+	margin-bottom: -0.5px;
+	font-weight: normal;
+	font-size:12px;
+	text-align: left;
+}
+
+.status{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	display:inline-block;
+	margin-right:7px;
+}
+.green{
+	background-color:#58b666;
+}
+.red{
+	background-color:#dc3545;
+}
+.orange{
+	background-color:#ff725d;
+}
+.blue{
+	background-color:#6fbced;
+	margin-right:0;
+	margin-left:7px;
+}
+.yellow{
+	background-color:#ffe75d;
+}
+.blk{
+	background-color:#000000;
+}
+.Header{
+	margin-top:7%;
+	height:auto;
+	border: 1px solid #0000;
+}
+.Header h2{
+	text-align:center;
+	font-size:37px;
+	padding-bottom: -50px;
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative;
+	width: 25%;
+	padding-left: 5px;
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.right-addon .fa { 
+	right: 0px;
+	padding-top: 13px;
+}
+
+/* add padding  */
+.right-addon input {
+	padding-right: 30px;
+	border-radius: 25px;
+	height: 40px;
+}

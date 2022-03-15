@@ -1,0 +1,7 @@
+.table-display {
+    overflow-y: auto;;
+    overflow-x: hidden;
+    padding-bottom: 10px; }
+  
+  #tables .table-display {
+    margin-bottom: 30px; }
